@@ -8,7 +8,7 @@ const Contact = () => {
     msg: "",
   });
 
-  const InputEvent = (event) => {
+  const InputEvent = (event:any) => {
     const { name, value } = event.target;
 
     setData((preVal) => {
@@ -19,7 +19,7 @@ const Contact = () => {
     });
   };
 
-  const formSubmit = (e) => {
+  const formSubmit = (e:any) => {
     e.preventDefault();
     alert(
       `My name is ${data.fullname}. My mobile number is ${data.phone} and email is ${data.email}, Here is what I watn to say ${data.msg}`

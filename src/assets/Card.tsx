@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Card = (props) => {
+const Card = (props:any) => {
   return (
     <>
       <div className="col-md-4 col-12 mx-auto">

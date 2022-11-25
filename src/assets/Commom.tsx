@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Commom = (props) => {
+const Commom = (props:any) => {
   return (
     <>
       <section id="header" className="d-flex align-items-center">
